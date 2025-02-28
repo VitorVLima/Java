@@ -5,6 +5,12 @@ public class Cliente {
     private String nome;
     private String profissao;
 
+    Cliente(String CPF, String nome, String profissao){
+        this.CPF = CPF;
+        this.nome = nome;
+        this.profissao = profissao;
+    }
+
     public void setCPF(String CPF){
         this.CPF = CPF;
     }
